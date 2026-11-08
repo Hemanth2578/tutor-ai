@@ -1,0 +1,5 @@
+llama_index
+load_dotenv
+google-genai==2.3.0 
+openai==2.46.0 
+anthropic==0.117.0
