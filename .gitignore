@@ -1,2 +1,5 @@
 .env
 .venv/
+src/__pycache__/
+src/prompts/__pycache__/
+src/prompts/test.py
