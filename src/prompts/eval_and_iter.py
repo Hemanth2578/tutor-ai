@@ -102,7 +102,7 @@ Only respond with "Yes" or "No".
 
 """
 
-formatted_input = prompt_check_company_type.format(table_to_check=generated_response)
+formatted_input = prompt_check_company_type.format(table_to_check=generated_response   )
 print(f"Formatted Text: {formatted_input}")
 
 
