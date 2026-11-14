@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tutor-ai"
+version = "0.1.0"
+
+[tool.setuptools]
+py-modules = ["utils"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
